@@ -1,5 +1,5 @@
 //
-//  Q1010.swift
+//  HS1010.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 10. 31..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q1010: QuestionReader {
+class HS1010: QuestionReader {
     override func solution() {
         let (_, values) = testCaseAndInput()
         

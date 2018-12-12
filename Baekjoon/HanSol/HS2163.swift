@@ -1,5 +1,5 @@
 //
-//  Q2163.swift
+//  HS2163.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 10. 31..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q2163: QuestionReader {
+class HS2163: QuestionReader {
     override func solution() {
         let (n, m) = simpleTwoInteger()
         

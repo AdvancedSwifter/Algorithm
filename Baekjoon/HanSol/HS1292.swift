@@ -1,5 +1,5 @@
 //
-//  Q1292.swift
+//  HS1292.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 11. 18..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q1292: QuestionReader {
+class HS1292: QuestionReader {
     override func solution() {
         let (n, m) = simpleTwoInteger()
         var table = [Int].init(repeating: 0, count: 1000 + 1)

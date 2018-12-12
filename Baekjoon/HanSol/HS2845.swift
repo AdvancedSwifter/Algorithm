@@ -1,5 +1,5 @@
 //
-//  Q2845.swift
+//  HS2845.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 11. 5..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q2845: QuestionReader {
+class HS2845: QuestionReader {
     override func solution() {
         let (w, h) = simpleTwoInteger(from: inputs.first)
         let values = inputs.last?.split(separator: " ").compactMap{ Int($0) } ?? []

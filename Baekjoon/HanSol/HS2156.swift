@@ -1,5 +1,5 @@
 //
-//  Q2156.swift
+//  HS2156.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 11. 18..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q2156: QuestionReader {
+class HS2156: QuestionReader {
     override func solution() {
         let array = inputs[1...]
             .compactMap({ Int($0) })

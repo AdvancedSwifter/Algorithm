@@ -1,5 +1,5 @@
 //
-//  Q11399.swift
+//  HS11399.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 10. 31..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q11399: QuestionReader {
+class HS11399: QuestionReader {
     override func solution() {
         let values = inputs.popLast()?.split(separator: " ").compactMap{ return Int($0) } ?? []
         

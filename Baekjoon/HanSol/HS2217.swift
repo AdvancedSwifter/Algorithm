@@ -1,5 +1,5 @@
 //
-//  Q2217.swift
+//  HS2217.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 10. 31..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q2217: QuestionReader {
+class HS2217: QuestionReader {
     override func solution() {
         let (_, values) = testCaseAndInput()
         

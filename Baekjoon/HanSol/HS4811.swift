@@ -1,5 +1,5 @@
 //
-//  Q4811.swift
+//  HS4811.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 10. 31..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q4811: QuestionReader {
+class HS4811: QuestionReader {
     override func solution() {
         let dpTable = [Int](repeating: 0, count: 30 + 1)
         

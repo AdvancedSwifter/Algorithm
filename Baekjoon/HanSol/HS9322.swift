@@ -1,5 +1,5 @@
 //
-//  Q9322.swift
+//  HS9322.swift
 //  Baekjoon
 //
 //  Created by 이한솔 on 2018. 11. 5..
@@ -8,7 +8,7 @@
 
 import Foundation
 
-class Q9322: QuestionReader {
+class HS9322: QuestionReader {
     override func solution() {
         let (_, values) = testCaseAndInput()
         let valueArrays = values.divideInto(4)
