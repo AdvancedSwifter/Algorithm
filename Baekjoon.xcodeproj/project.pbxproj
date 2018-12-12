@@ -18,6 +18,8 @@
 		4AB7D9C821C11FC9000BC39F /* HS2217.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AB7D9BF21C11FC9000BC39F /* HS2217.swift */; };
 		4AD1551E2189BB1D003379AF /* main.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD1551D2189BB1D003379AF /* main.swift */; };
 		4AD155292189BEEC003379AF /* QuestionReader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 4AD155282189BEEC003379AF /* QuestionReader.swift */; };
+		8D6C6F8F21C1875100D15687 /* Problem.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C6F8E21C1875100D15687 /* Problem.swift */; };
+		8D6C6F9121C1877100D15687 /* Solvable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8D6C6F9021C1877100D15687 /* Solvable.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -45,6 +47,8 @@
 		4AD1551A2189BB1D003379AF /* Baekjoon */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = Baekjoon; sourceTree = BUILT_PRODUCTS_DIR; };
 		4AD1551D2189BB1D003379AF /* main.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = main.swift; sourceTree = "<group>"; };
 		4AD155282189BEEC003379AF /* QuestionReader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = QuestionReader.swift; sourceTree = "<group>"; };
+		8D6C6F8E21C1875100D15687 /* Problem.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Problem.swift; sourceTree = "<group>"; };
+		8D6C6F9021C1877100D15687 /* Solvable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Solvable.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -93,11 +97,21 @@
 		4AD1551C2189BB1D003379AF /* Baekjoon */ = {
 			isa = PBXGroup;
 			children = (
+				8D6C6F8D21C1874400D15687 /* SeokWoo */,
 				4AB7D9B621C11FC9000BC39F /* HanSol */,
 				4AD1551D2189BB1D003379AF /* main.swift */,
 				4AD155282189BEEC003379AF /* QuestionReader.swift */,
 			);
 			path = Baekjoon;
+			sourceTree = "<group>";
+		};
+		8D6C6F8D21C1874400D15687 /* SeokWoo */ = {
+			isa = PBXGroup;
+			children = (
+				8D6C6F8E21C1875100D15687 /* Problem.swift */,
+				8D6C6F9021C1877100D15687 /* Solvable.swift */,
+			);
+			path = SeokWoo;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -158,12 +172,14 @@
 			buildActionMask = 2147483647;
 			files = (
 				4AB7D9C221C11FC9000BC39F /* HS2845.swift in Sources */,
+				8D6C6F8F21C1875100D15687 /* Problem.swift in Sources */,
 				4AB7D9C321C11FC9000BC39F /* HS1010.swift in Sources */,
 				4AD1551E2189BB1D003379AF /* main.swift in Sources */,
 				4AB7D9C721C11FC9000BC39F /* HS4811.swift in Sources */,
 				4AB7D9C421C11FC9000BC39F /* HS1292.swift in Sources */,
 				4AD155292189BEEC003379AF /* QuestionReader.swift in Sources */,
 				4AB7D9C521C11FC9000BC39F /* HS2156.swift in Sources */,
+				8D6C6F9121C1877100D15687 /* Solvable.swift in Sources */,
 				4AB7D9C621C11FC9000BC39F /* HS11399.swift in Sources */,
 				4AB7D9C021C11FC9000BC39F /* HS9322.swift in Sources */,
 				4AB7D9C821C11FC9000BC39F /* HS2217.swift in Sources */,
