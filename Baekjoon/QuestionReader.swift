@@ -8,8 +8,9 @@
 
 import Foundation
 
+typealias Inputs = [String]
 class QuestionReader {
-    var inputs: [String] = []
+    var inputs: Inputs = []
     
     func solution() {
         assert(true) // 오버라이드 해서 사용할 것
@@ -48,7 +49,7 @@ extension QuestionReader {
         return (first, second)
     }
     
-    func testCaseAndInput() -> (Int, [String]) {
+    func testCaseAndInput() -> (Int, Inputs) {
         let numOfTestCase = Int(inputs.first ?? "0") ?? 0
         let values = inputs[1...]
         
@@ -57,23 +58,13 @@ extension QuestionReader {
 }
 
 extension Array where Element == String {
-    func divideInto(_ n: Int) -> [[String]] {
-        var newArray = [[String]](repeating: [String](), count: count / n)
+    func divideInto(_ n: Int) -> [Inputs] {
+        var newArray = [Inputs](repeating: Inputs(), count: count / n)
         
         for (offset, value) in enumerated() {
             newArray[offset / n].append(value)
         }
         
         return newArray
-    }
-}
-
-protocol A {
-    func f() -> Bool
-}
-
-extension A {
-    func f() -> Bool {
-        return true
     }
 }
