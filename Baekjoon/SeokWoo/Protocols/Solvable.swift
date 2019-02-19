@@ -8,16 +8,11 @@
 
 import Foundation
 
+/// 문제 풀기 Protocol
 protocol Solvable {
     
-    func solve(_ problem: Problem)
+    associatedtype Output
     
-}
-
-extension Solvable {
-    
-    func solve(_ problem: Problem) {
-        assert(true, "You must override solve(_) function.")
-    }
+    func solve() -> Output
     
 }
